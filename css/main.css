@@ -1462,7 +1462,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #5b05ff;
+    background: #5d9137;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -1697,10 +1697,6 @@ pre code {
   border: 1px solid #eee;
   max-width: 120px;
   padding: 2px;
-  transition: transform 1s ease-out;
-}
-.site-author-image:hover {
-  transform: rotateZ(360deg);
 }
 .site-author-name {
   color: var(--text-color);
@@ -1755,9 +1751,6 @@ pre code {
 }
 .links-of-author a {
   font-size: 0.8125em;
-}
-.links-of-author i[class^='fa'] {
-  margin-right: 2px;
 }
 .cc-license .cc-opacity {
   border-bottom: 0;
@@ -1878,7 +1871,7 @@ pre code {
   width: 100%;
 }
 .with-love {
-  color: #f00;
+  color: #808080;
   display: inline-block;
   margin: 0 5px;
   animation: icon-animate 1.33s ease-in-out infinite;
@@ -1926,7 +1919,7 @@ pre code {
 .reading-progress-bar {
   --progress: 0;
   background: #37c6c0;
-  height: 3px;
+  height: 4px;
   position: fixed;
   z-index: 50;
   width: var(--progress);
@@ -2345,9 +2338,10 @@ pre code {
 }
 .post-eof {
   background: #ccc;
-  height: 1px;
+  height: 3px;
   margin: 80px auto 60px;
-  width: 8%;
+  text-align: center;
+  width: 100%;
 }
 .post-block:last-of-type .post-eof {
   display: none;
@@ -3048,7 +3042,6 @@ header.header {
   }
   .links-of-author-item {
     margin: 5px 0 0;
-    width: 50%;
   }
   .links-of-author-item a {
     border-bottom: 0;
